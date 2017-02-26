@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* 维护 less 文件*/
+.body-content {
+  width: 1100px;
+  margin: 50px auto;
+}
+table {
+  width: 100%;
+}
+table tbody tr {
+  height: 30px;
+}
+table tbody tr td {
+  padding: 10px 5px;
+  border: 2px solid #555;
+  text-align: center;
+  min-width: 30px;
+  width: 8%;
+}
+table tbody tr .userName {
+  margin: 10px 0 0 0;
+  min-height: 20px;
+  color: #0076ff;
+}
+table .floor35 td:nth-child(1),
+table .floor35 td:nth-child(2),
+table .floor35 td:nth-child(5),
+table .floor35 td:nth-child(8) {
+  border: none;
+}

@@ -1,0 +1,116 @@
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.body-content {
+  width: 1100px;
+  margin: 10px auto;
+}
+.body-content .tab-content {
+  margin-bottom: 60px;
+}
+.body-content .tenant-title {
+  text-align: center;
+  padding-top: 20px;
+  color: #2277da;
+}
+.body-content .tenant-title .roomNumber {
+  font-size: 22px;
+  font-weight: bold;
+}
+.body-content .btngoback {
+  width: 120px;
+  height: 28px;
+  color: #222;
+  border-color: #222;
+  float: right;
+  margin-top: -30px;
+  line-height: 14px;
+}
+.body-content .btngoback:hover {
+  background-color: #444;
+  color: #fff;
+}
+h3 {
+  font-size: 18px;
+  display: inline-block;
+}
+.room-guest {
+  background: #fafafa;
+  margin-top: 2em;
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+}
+.room-guest .ul {
+  float: left;
+  width: 33%;
+}
+.room-guest .span {
+  width: 100px;
+  display: inline-block;
+}
+.room-guest li {
+  line-height: 35px;
+}
+.room-guest .userInfo,
+.room-guest .roomInfo {
+  zoom: 1;
+  padding: 15px 0px 15px 200px;
+  display: none;
+}
+.room-guest .userInfo:after,
+.room-guest .roomInfo:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.room-guest .noData {
+  display: none;
+  text-align: center;
+  padding: 30px;
+  color: #2277da;
+}
+.inner-table {
+  padding: 10px 0px 100px;
+}
+.inner-table h4 {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  font-weight: bold;
+}
+.inner-table table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.inner-table th {
+  background: #f7f7f7;
+  text-align: center;
+  color: #111;
+  line-height: 45px;
+  font-weight: normal;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid #ccc;
+}
+.inner-table td {
+  background: #fff;
+  text-align: center;
+  line-height: 45px;
+  border-bottom: 1px solid #ccc;
+}
+.inner-table tr:hover td {
+  background: #fdfdfd;
+}
+.bottom-page {
+  margin-right: 0;
+}
+.bottom-page .recordTotal {
+  color: #2277da;
+}
+.no-data {
+  color: #2277da;
+}

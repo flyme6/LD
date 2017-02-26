@@ -1,0 +1,158 @@
+/* 导航栏样式 */
+header .header-logo {
+	left: 45%;
+}
+
+header .homeMenu {
+	margin-top: 15px;
+	margin-left: -20px;
+	display: inline-block;
+	cursor: pointer;
+	width: 160px;
+	height: 30px;
+}
+
+header .homeMenu .span {
+	margin-left: .5em;
+}
+
+/* 一级菜单样式 */
+.main-nav {
+	position: fixed;
+	z-index: 200;
+	box-shadow: 2px 0 16px rgba(0, 0, 0, .2);
+	top: 0;
+	width: 0;
+}
+
+.main-nav .menuOne {
+	display: block;
+	height: 49px;
+	line-height: 50px;
+	background: #fafafa;
+	cursor: pointer;
+	font-size: 13px;
+	color: #0057bd;
+}
+
+.main-nav .menuOne i {
+	font-size: 15px;
+	font-style: normal;
+}
+
+.main-nav .menuOne i:nth-child(1) {
+	margin-left: 80px;
+}
+
+.main-nav .menuOne i:nth-child(2), .main-nav .menuOne i:nth-child(3) {
+	margin-left: -5px;
+}
+
+/* 二级菜单样式 */
+.nav-second .toolbar {
+	width: 1100px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.toolbar ul {
+	margin-left: -30px;
+}
+
+.toolbar li {
+	margin: 0 30px;
+}
+
+/* ******* 管理员界面样式  *******  */
+.content {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.title {
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.title-content{
+	width: 1100px; 
+	margin: 0 auto;
+}
+
+/********* 首页  标题样式*******/
+.title img {
+	width: 60px;
+	display: inline-block;
+	float: left;
+	margin-top: -20px;
+	border-radius: 50%;
+	border: 1px #888 dashed;
+	padding: 9px;
+	margin-right: 20px;
+}
+
+.title h5 {
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px; 
+}
+
+.title h5 span {
+	color: #ff824d;
+}
+
+.title .btnchange {
+	float: right;
+	margin-top: -35px;
+}
+
+/********** 首页 个人信息样式 *****************/
+.detail {
+	padding: 30px 0;
+	position: relative;
+}
+
+.detail-head {
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.detail-head span {
+	font-size: 20px;
+	border-bottom: 2px #4a8bee solid;
+	padding: 5px 20px;
+}
+
+.detail-body:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.detail-body {
+	zoom: 1;
+	margin-left: 37%;
+}
+
+.detail-body dl dt {
+	float: left;
+	clear: left;
+	font-size: 17px;
+	width: 230px;
+	margin-bottom: 20px;
+	color: #555;
+	font-weight: normal;
+}
+
+.detail-body dl dd {
+	float: left;
+	font-size: 17px;
+	color: #2277da;
+}
+
+/* 修改密码模态框样式 */
+.modal-body {
+	padding: 15px 20px 0;
+}
